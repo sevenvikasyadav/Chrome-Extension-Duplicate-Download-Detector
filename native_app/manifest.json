@@ -1,0 +1,9 @@
+{
+  "name": "com.vikas.filechecker2",
+  "description": "Duplicate Download Detector",
+  "path": "C:\\Users\\Vikas Yadav\\DDAS\\native_app\\launch_app.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://chlianiagolonpbenkjljojahhpibkpo/"
+  ]
+}
