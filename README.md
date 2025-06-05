@@ -5,7 +5,7 @@ Checks if a file being downloaded already exists. Detects the duplicate if it wa
 ## 🚀 Features
 
 - 🔍 Detects duplicate file downloads in real-time.
-- 📂 Checks if a file being downloaded already exists (based on its content hash).
+- 📂 Checks if a file being downloaded already exists (based on its content hash, works for any file type).
 - 🧠 Remembers downloads during the session while the extension is active.
 - 🔔 Warns the user upon duplicate detection (optional toast popup or system notification).
 
