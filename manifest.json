@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Duplicate Download Detector",
+  "version": "1.2",
+  "description": "Checks if a file being downloaded already exists. Detects the duplicate if it was downloaded while this extension was running.",
+  "permissions": ["downloads", "notifications", "scripting", "tabs", "nativeMessaging"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "Duplicate Detector Active"
+  }
+}
