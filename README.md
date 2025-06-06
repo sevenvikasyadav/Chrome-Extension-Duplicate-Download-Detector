@@ -33,7 +33,7 @@ The `native_app/` folder contains a Python script and a manifest for the **Nativ
    - Click **“Load unpacked”** and select the folder containing the extension files.
 4. Now press `Windows + R`, select `regedit` and navigate to `KEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\`.
 5. Right click to create new `KEY` with the name `com.vikas.filechecker2`.
-6. `Modify` the `Data` of the key to the full address of the folder where the extension is downloaded, for example `C:\Users\<USER>\DDAS\`.
+6. `Modify` the `Data` of the key to complete path of `launch_app.bat`, for example `C:\Users\<USER>\DDAS\native_app\launch_app.bat`.
 7. Load extension once and you will get the Extension ID there.
 8. Now open the `manifest.json` of `native_app` again and replace `<EXTENSION_ID>` with that ID.
 9. Done! You are ready to save space on your machine.
