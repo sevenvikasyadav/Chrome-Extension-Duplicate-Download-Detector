@@ -1,9 +1,9 @@
 {
   "name": "com.vikas.filechecker2",
   "description": "Duplicate Download Detector",
-  "path": "<PATH>", // Replace with the actual path of this file.
+  "path": "<PATH>", 
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://<EXTENSION_ID>/" // Replace with the original Extension_ID.
+    "chrome-extension://<EXTENSION_ID>/" 
   ]
 }
