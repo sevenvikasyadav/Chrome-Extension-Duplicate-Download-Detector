@@ -26,16 +26,16 @@ The `native_app/` folder contains a Python script and a manifest for the **Nativ
 ## 📦 Installation (For Testing / Local Use)
 
 1. Clone or download this repository.
-2. Open the `manifest.json` of `native_app`and replace the <PATH> with complete path of `launch_app.bat`, for example `C:\\Users\\<USER>\\DDAS\\native_app\\launch_app.bat`
+2. Open the `manifest.json` of `native_app`and replace the `<PATH>` with complete path of `launch_app.bat`, for example `C:\\Users\\<USER>\\DDAS\\native_app\\launch_app.bat`
 3. Load the extension in Chrome:
    - Go to `chrome://extensions/`
    - Enable **Developer Mode**
    - Click **“Load unpacked”** and select the folder containing the extension files.
-4. Now open the `manifest.json` of `native_app` again and replace `<EXTENSION_ID>` with that ID.
-5. Now press `Windows + R`, select `regedit` and navigate to `KEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\`.
-6. Right click to create new `KEY` with the name `com.vikas.filechecker2`.
-7. `Modify` the `Data` of the key to the full address of the folder where the extension is downloaded, for example `C:\Users\<USER>\DDAS\`.
-8. Load extension once and you will get the Extension ID there.
+4. Now press `Windows + R`, select `regedit` and navigate to `KEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\`.
+5. Right click to create new `KEY` with the name `com.vikas.filechecker2`.
+6. `Modify` the `Data` of the key to the full address of the folder where the extension is downloaded, for example `C:\Users\<USER>\DDAS\`.
+7. Load extension once and you will get the Extension ID there.
+8. Now open the `manifest.json` of `native_app` again and replace `<EXTENSION_ID>` with that ID.
 9. Done! You are ready to save space on your machine.
 
 > Created with ❤️ to help users avoid clutter and redundant downloads.
